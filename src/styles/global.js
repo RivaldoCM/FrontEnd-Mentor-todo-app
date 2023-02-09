@@ -9,19 +9,19 @@ export const GlobalStyle = createGlobalStyle`
         //Neutral
 
         //Light Mode
-        --veryLightGray: hsl(0, 0%, 98%)
-        --veryLightGrayishBlue: hsl(236, 33%, 92%)
-        -lightGrayishBlue: hsl(233, 11%, 84%)
-        --darkGrayishBlue: hsl(236, 9%, 61%)
+        --veryLightGray: hsl(0, 0%, 98%);
+        --veryLightGrayishBlue: hsl(236, 33%, 92%);
+        -lightGrayishBlue: hsl(233, 11%, 84%);
+        --darkGrayishBlue: hsl(236, 9%, 61%);
         
         //Dark Mode
-        --veryDarkBlue: hsl(235, 21%, 11%)
-        --veryDarkDesaturated Blue: hsl(235, 24%, 19%)
-        --lightGrayishBlue: hsl(234, 39%, 85%)
-        --lightGrayishBlue (hover): hsl(236, 33%, 92%)
-        --darkGrayishBlue: hsl(234, 11%, 52%)
-        --veryDarkGrayishBlue: hsl(233, 14%, 35%)
-        --veryDarkGrayishBlue: hsl(237, 14%, 26%)
+        --veryDarkBlue: hsl(235, 21%, 11%);
+        --veryDarkDesaturatedBlue: hsl(235, 24%, 19%);
+        --lightGrayishBlue: hsl(234, 39%, 85%);
+        --lightGrayishBlueHover: hsl(236, 33%, 92%); //hover
+        --darkGrayishBlue: hsl(234, 11%, 52%);
+        --veryDarkGrayishBlue: hsl(233, 14%, 35%);
+        --veryDarkGrayishBlue2: hsl(237, 14%, 26%);
     }
     * {
         box-sizing: border-box;
@@ -45,7 +45,7 @@ export const GlobalStyle = createGlobalStyle`
         }
     }
     body {
-        background: var(--background);
+        //background: var(--background);
         -webkit-font-smoothing: antialiased;
     }
     body, button, texarea, input {
